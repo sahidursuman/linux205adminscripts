@@ -116,6 +116,8 @@ case $mainmenuchoice in
 	read chmodfile
 	echo "" && echo "Please enter the three-digit numeric string for the permissions you would like to set:" | centerwide
 	echo ""
+	echo "${txtcyn}( format is [owner][group][all]  |  ex: ${txtrst}777${txtcyn} for full control for everyone )${txtrst}" | centerwide
+	echo ""
 	echo "${txtcyn}4 = read${txtrst}" | center
 	echo "${txtcyn}2 = write${txtrst}" | center
 	echo "${txtcyn}1 = execute${txtrst}" | center
